@@ -1,13 +1,26 @@
-import React from "react";
-import Home from './components/Home'
+import { React } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Navbar from "./components/nav"
+import Home from './pages/Home';
+import "./style.css";
 
 function App() {
     return (
         <div className="App">
-            <header>Planner application</header>
-            <Home/>
-            <footer>Created by Sangmi Contact: sangmiyun0529@gmail.com</footer>
-        </div>
+      <Router basename="/">
+        {/* NavBar will go over here */}
+        <Navbar/>
+        <Routes>
+          {/* Home route */}
+          <Route path="/" element={<Home />}></Route>
+          {/* About route */}
+          {/* <Route path="about" element={<Month/>}></Route> */}
+          {/* Contact route */}
+          {/* <Route path="contact" element={<Contact/>}></Route> */}
+        </Routes>
+      </Router>
+    </div>
     );
 }
 

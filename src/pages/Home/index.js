@@ -5,9 +5,9 @@ export default function Home() {
 
     return (
         <div className='home'>
-            <div className='content'>
-                <h1>Planner</h1>
-                    
+            <div className='week'>
+                <h1>Study Planner</h1>
+                <h2>Weekly</h2>
             </div>
         </div>
     )

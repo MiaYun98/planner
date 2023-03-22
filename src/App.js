@@ -15,9 +15,9 @@ function App() {
           {/* Home route */}
           <Route path="/" element={<Home />}></Route>
           {/* About route */}
-          {/* <Route path="about" element={<Month/>}></Route> */}
+          {/* <Route path="month" element={<Month/>}></Route> */}
           {/* Contact route */}
-          {/* <Route path="contact" element={<Contact/>}></Route> */}
+          {/* <Route path="year" element={<Contact/>}></Route> */}
         </Routes>
       </Router>
     </div>

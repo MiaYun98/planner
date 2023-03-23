@@ -1,8 +1,9 @@
 import { React } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Navbar from "./components/nav"
+import Navbar from "./components/nav";
 import Home from './pages/Home';
+import Month from "./pages/Month";
 import "./style.css";
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
           {/* Home route */}
           <Route path="/" element={<Home />}></Route>
           {/* About route */}
-          {/* <Route path="month" element={<Month/>}></Route> */}
+          <Route path="month" element={<Month/>}></Route>
           {/* Contact route */}
           {/* <Route path="year" element={<Contact/>}></Route> */}
         </Routes>

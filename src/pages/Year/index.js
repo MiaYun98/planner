@@ -7,7 +7,7 @@ export default function Home() {
         <div className='home'>
             <div className='week'>
                 <h1>Study Planner</h1>
-                <h2>Weekly</h2>
+                <h2>Yearly</h2>
             </div>
         </div>
     )

@@ -23,7 +23,7 @@ export default function Home() {
                     </li>
                     <li>
                         <div className='card'>
-                            <h2>Wedsday</h2>
+                            <h2>Wednesday</h2>
                         </div>
                     </li>
                     <li>

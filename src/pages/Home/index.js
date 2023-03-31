@@ -10,6 +10,7 @@ export default function Home() {
                 <h2>Weekly</h2>
             </div>
             <div className='weekday'> 
+            {/* weekdays form it should be aline in a line */}
                 <ul className='weekday'>
                     <li>
                         <div className='card'>

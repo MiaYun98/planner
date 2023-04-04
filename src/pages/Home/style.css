@@ -17,9 +17,14 @@ h2 {
     text-align: center;
 }
 
+/* .weekday {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap; 
+} */
+
 .weekday li {
     list-style: none;
-    display: inline-block;
 }
 
 .card {

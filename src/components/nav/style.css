@@ -1,4 +1,14 @@
 .navbar { 
     margin: 40px;
     font-family: 'Quicksand', sans-serif;
+    margin-top: 100px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
 }

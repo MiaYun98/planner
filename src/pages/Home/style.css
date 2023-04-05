@@ -17,16 +17,19 @@ h2 {
     text-align: center;
 }
 
-/* .weekday {
+.weekday {
+    padding: auto;
     margin-top: 5%;
     display: flex;
     flex-wrap: wrap; 
-} */
-
-.weekday li {
-    list-style: none;
 }
 
 .card {
     background-color: white;
+    width: 174px;
+}
+
+.card textarea {
+    background-color: transparent;
+    border: transparent;
 }

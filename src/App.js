@@ -7,6 +7,7 @@ import Month from "./pages/Month";
 import "./style.css";
 
 function App() {
+  // should call API in here and pass through navbar and than goes with the home page or we can pass in through in this page too 
     return (
         <div className="App">
       <Router basename="/">

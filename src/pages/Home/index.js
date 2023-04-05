@@ -9,29 +9,53 @@ export default function Home() {
                 <h1>Study Planner</h1>
                 <h2>Weekly</h2>
             </div>
-            <div className='container text-center'>
-                <div className='weekday row'> 
+            <div className='text-center'>
+                <div className='weekday'> 
                 {/* weekdays form it should be aline in a line */}
-                    <div className='card col'>
+                {/* weekdays from is done they are collepsing in row */}
+                {/* should work on adding elements to the each todo list */}
+                {/* calling API at the front page */}
+                    <div className='card'>
                         <h2>Monday</h2>
+                        <textarea>
+                            
+                        </textarea>
                     </div>
-                    <div className='card col'>
+                    <div className='card'>
                         <h2>Tuesday</h2>
+                        <textarea>
+                            
+                        </textarea>
                     </div>
-                    <div className='card col'>
+                    <div className='card'>
                         <h2>Wednesday</h2>
+                        <textarea>
+
+                        </textarea>
                     </div>
-                    <div className='card col'>
+                    <div className='card'>
                         <h2>Thursday</h2>
+                        <textarea>
+                            
+                        </textarea>
                     </div>
-                    <div className='card col'>
+                    <div className='card'>
                         <h2>Friday</h2>
+                        <textarea>
+                            
+                        </textarea>
                     </div>
-                    <div className='card col'>
+                    <div className='card'>
                         <h2>Saturday</h2>
+                        <textarea>
+                            
+                        </textarea>
                     </div>
-                    <div className='card col'>
+                    <div className='card'>
                         <h2>Sunday</h2>
+                        <textarea>
+                            
+                        </textarea>
                 </div>
             </div>
             </div>

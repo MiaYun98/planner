@@ -23,7 +23,7 @@ export default function Home() {
                     </div>
                     <div className='card'>
                         <h2>Tuesday</h2>
-                        <textarea>
+                        <textarea placeholder='add items'>
                             
                         </textarea>
                     </div>

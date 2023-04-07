@@ -29,6 +29,10 @@ h2 {
     width: 174px;
 }
 
+.card h2 {
+    background-color: lightgray;
+}
+
 .card textarea {
     background-color: transparent;
     border: transparent;

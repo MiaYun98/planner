@@ -17,7 +17,7 @@ export default function Home() {
                 {/* calling API at the front page */}
                     <div className='card'>
                         <h2>Monday</h2>
-                        <textarea>
+                        <textarea placeholder='add items'>
                             
                         </textarea>
                     </div>
